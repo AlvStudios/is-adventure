@@ -17,8 +17,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            height: 100vh;
+            height: 200vh; /* Altura incrementada para permitir el desplazamiento */
             margin: 0;
             font-family: Arial, sans-serif;
             color: white;
@@ -30,11 +29,13 @@
             font-size: 48px;
             color: yellow;
             text-align: center;
+            margin-top: 20px;
         }
 
         .subtitle {
             font-size: 24px;
             text-align: center;
+            margin-bottom: 20px;
         }
 
         /* Añadido para accesibilidad */
@@ -63,15 +64,20 @@
             font-size: 20px;
             color: #ADD8E6; /* Azul claro */
             text-align: center;
-            margin-top: 20px;
+            margin-top: auto; /* Para que el discurso esté en la parte inferior */
         }
     </style>
 </head>
 <body>
     <a href="https://www.youtube.com/channel/UCpCYO43wxmKumb81Jca23Dw" class="youtube-button">YouTube</a>
 
-    <!-- Resto de tu contenido aquí -->
+    <div class="title">Is Adventure</div>
+    <div class="subtitle">Un viaje emocionante te espera</div>
+
+    <!-- Contenido adicional o de relleno para crear espacio para desplazarse -->
+    <div style="flex: 1;"></div>
 
     <div class="discurso">Juego desarrollado por tres niños de 12 años y menos, lleno de fantasía, alegría y locura.</div>
 </body>
 </html>
+
