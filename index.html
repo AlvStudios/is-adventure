@@ -17,7 +17,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 200vh; /* Altura incrementada para permitir el desplazamiento */
+            height: 200vh;
             margin: 0;
             font-family: Arial, sans-serif;
             color: white;
@@ -73,18 +73,27 @@
             text-align: center;
             margin-top: auto; /* Para que el discurso esté en la parte inferior */
         }
+
+        /* Estilo para la imagen del botón de YouTube */
+        .youtube-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
     </style>
 </head>
 <body>
-    <a href="https://www.youtube.com/channel/UCpCYO43wxmKumb81Jca23Dw" class="button">YouTube</a>
+    <a href="https://www.youtube.com/channel/UCpCYO43wxmKumb81Jca23Dw" class="youtube-button">
+        <img src="boton you.png" alt="Botón de YouTube">
+    </a>
     <a href="https://alv-studios.itch.io/is-adventure-demo-1" class="button download-button">Descarga la demo ya</a>
 
     <div class="title">Is Adventure</div>
     <div class="subtitle">Un viaje emocionante te espera</div>
 
-    <!-- Contenido adicional o de relleno para crear espacio para desplazarse -->
     <div style="flex: 1;"></div>
 
     <div class="discurso">Juego desarrollado por tres niños de 12 años y menos, lleno de fantasía, alegría y locura.</div>
 </body>
 </html>
+
