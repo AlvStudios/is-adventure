@@ -17,7 +17,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 200vh;
+            height: 200vh; /* Altura incrementada para permitir el desplazamiento */
             margin: 0;
             font-family: Arial, sans-serif;
             color: white;
@@ -78,7 +78,13 @@
         .youtube-button {
             position: absolute;
             top: 20px;
-            left: 20px;
+            right: 20px;
+        }
+
+        /* Especificar el tamaño de la imagen del botón de YouTube */
+        .youtube-button img {
+            width: 50px; /* Ajusta el tamaño según sea necesario */
+            height: auto;
         }
     </style>
 </head>
@@ -93,7 +99,6 @@
 
     <div style="flex: 1;"></div>
 
-    <div class="discurso">Juego desarrollado por tres niños de 12 años y menos, lleno de fantasía, alegría y locura.</div>
+    <div class="discurso">Un juego creado por tres talentosos jóvenes menores de 12 años, lleno de imaginación, diversión y momentos inesperados.</div>
 </body>
 </html>
-
